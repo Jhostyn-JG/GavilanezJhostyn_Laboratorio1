@@ -8,7 +8,7 @@
       (onDecrease)="updateProgress($event)"
       (onComplete)="countdownFinished()"
     ></app-countdown>
-    
+
     <!--Input para la generacion automatica-->
     <div class="initInput">
       <label for="totalCountDown">Inicia en: </label>
@@ -19,3 +19,15 @@
     <button (click)="countdown.startCountdown(); counterProgress = 0;">Reiniciar</button>
   </h1>
 </div>
+
+
+<!-- Sección para el Input y Button -->
+<div class="card2">
+  <h1>
+    <h5>Gavilanez Jhostyn - Actividad Extra</h5>
+    <app-input [(textoEntrada)]="textoEntrada" ></app-input>
+    <app-button (clickBoton)="onButtonClick()" ></app-button>
+    <p>La Entrada del Texto es: {{ textoEntrada }}</p>
+  </h1>
+</div>
+

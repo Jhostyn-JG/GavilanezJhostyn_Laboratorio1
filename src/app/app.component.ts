@@ -21,4 +21,16 @@ export class AppComponent {
     console.log("El conteo Finalizó");
   }
 
+  //Esta es la actividad extra 
+  textoEntrada: string = '';
+
+  onButtonClick() {
+    //Por consola
+    console.log('Botón clicado');
+    console.log('Valor actual de textValue:', this.textoEntrada);
+    //Mediante un Alert 
+    alert(`Botón clicado\nValor actual de la entrada del Texto es: ${this.textoEntrada}`);
+  }
+  
+
 }
