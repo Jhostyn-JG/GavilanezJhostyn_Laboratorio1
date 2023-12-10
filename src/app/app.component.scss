@@ -1,0 +1,61 @@
+app-progress-bar{
+    width: 95%;   
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+.card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+
+.initInput {
+    display: flex;
+  
+    input {
+      margin-right: 20px;
+      margin-bottom: 15px;
+      height: 40px;
+      font-size: 20px;
+      flex: 1;
+      min-width: 50px;
+      border: 2px solid #0066cc;
+      border-radius: 5px;
+      padding: 5px 10px;
+    }
+  }
+
+button {
+  width: 100%;
+  height: 50%;
+  font-family: Roboto, sans-serif;
+  font-weight: 0;
+  font-size: 20px;
+  color: #fff;
+  background-color: #0066CC;
+  padding: 10px 30px;
+  border: 2px solid #0066cc;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 50px;
+  transition: 1000ms;
+  transform: translateY(0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  &:hover {
+    transition: 1000ms;
+    padding: 10px 50px;
+    transform: translateY(-0px);
+    background-color: #fff;
+    color: #0066cc;
+    border: solid 2px #0066cc;
+  }
+}
