@@ -28,3 +28,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Ejecución del Laboratorio - Parte 1 
 ![Resultado de la Ejecución del Laboratorio Parte 1](src/assets/images/ResultadoParte1_Lab.jpg)
+
+## Ejecución del Laboratorio - Parte 2 (Actividad Extra) 
+![Resultado de la Ejecución del Laboratorio Parte 2](src/assets/images/ActividadExtra_Lab1.png)
